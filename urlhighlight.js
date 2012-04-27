@@ -1,6 +1,7 @@
 //      urlhighlight 0.0.1
 //      (c) 2012 client IO
-//      URL highlighter
+//      urlhighlight is licensed under the MIT license.
+//      URL syntax highlighting
 
 (function(root, factory) {
 
