@@ -16,4 +16,5 @@ Features:
 - syntax highlights URLs
 - custom templates
 - support for data-uri
+- support for AMD (asynchronous module definition)
 - free
