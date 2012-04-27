@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="urlhighlight.css" />
+        <script src="urlhighlight.js"></script>
+    </head>
+    <body>
+        <script>
+            var urls = [
+
+              'http://www.example.com',
+              'data-uri:image/jpeg,base64;foo',
+              'http://www.example.com?foo=5&bar=baz',
+              'http://www.example.com?foo=5',
+              'http://www.example.com?foo=5&bar=baz#top',
+              'http://www.example.com/section/article?foo=5&bar=baz#top'
+
+            ];
+
+            document.write('<table>');
+            for (var i = 0; i < urls.length; i++) {
+              document.write('<tr><td>' + urls[i] + '</td><td>' + urlhighlight({ url: urls[i] }) + '</td></tr>');
+            }
+            document.write('</table>');
+
+        </script>
+    </body>
+</html>

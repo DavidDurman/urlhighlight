@@ -1,0 +1,48 @@
+.url-protocol {
+   color: blue;
+}
+.url-host {
+   color: green;
+}
+.url-port-delimiter {
+   color: gray;
+}
+.url-port {
+   color: yellow;
+}
+.url-path {
+   color: red;
+}
+.url-query-delimiter {
+   color: black;
+}
+.url-query-param-name {
+   color: pink;
+}
+.url-query-param-assign {
+   color: lightgray;
+}
+.url-query-param-value {
+   color: orange;
+   font-weight: bold;
+}
+.url-query-param-delimiter {
+   color: lightgray;
+}
+
+/* data-uri specific */
+.url-mime-type {
+   color: orange;
+}
+.url-mime-type-delimiter {
+   color: gray;
+}
+.url-encoding {
+   color: green;
+}
+.url-encoding-delimiter {
+   color: blue;
+}
+.url-data {
+   color: pink;
+}
