@@ -137,7 +137,7 @@
             fill(opt.protocolDelimiter || protocolDelimiter),
             fill(opt.host || host, url.host),
             url.port ? fill(opt.portDelimiter || portDelimiter) : '',
-            fill(opt.port || port, url.port),
+            url.port ? fill(opt.port || port, url.port) : '',
             url.path !== '/' ? fill(opt.path || path, url.path) : '',
             queryParams.length ? fill(opt.queryDelimiter || queryDelimiter) : '',
             queryParams.join(fill(opt.queryParamDelimiter || queryParamDelimiter)),
