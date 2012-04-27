@@ -1,48 +1,59 @@
 .url-protocol {
-   color: blue;
+   color: #7B9185;
+}
+.url-protocol-delimiter {
+   color: lightgray;
 }
 .url-host {
-   color: green;
+   color: #E1A658;
 }
 .url-port-delimiter {
    color: gray;
 }
 .url-port {
-   color: yellow;
+   color: #71291D;
 }
 .url-path {
-   color: red;
+   color: #426384;
+   font-weight: bold;
 }
 .url-query-delimiter {
-   color: black;
+   color: lightgray;
 }
 .url-query-param-name {
-   color: pink;
+   color: #4F5928;
 }
 .url-query-param-assign {
    color: lightgray;
 }
 .url-query-param-value {
-   color: orange;
+   color: #008083;
    font-weight: bold;
 }
 .url-query-param-delimiter {
    color: lightgray;
 }
+.url-hash-delimiter {
+   color: lightgray;
+}
+.url-hash {
+   color: #59618F;
+}
 
 /* data-uri specific */
 .url-mime-type {
-   color: orange;
+   color: #426384;
+   font-weight: bold;
 }
 .url-mime-type-delimiter {
-   color: gray;
+   color: lightgray;
 }
 .url-encoding {
-   color: green;
+   color: #71291D;
 }
 .url-encoding-delimiter {
-   color: blue;
+   color: lightgray;
 }
 .url-data {
-   color: pink;
+   color: #008083;
 }
