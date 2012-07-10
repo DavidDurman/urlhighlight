@@ -22,7 +22,7 @@ Its function is very apparent from its usage:
     <span class="url-hash">top</span>
 
 
-![](http://github.com/clientIO/urlhighlight/raw/master/screenshot.png)
+![](http://github.com/DavidDurman/urlhighlight/raw/master/screenshot.png)
 
 
 Features:
